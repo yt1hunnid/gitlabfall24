@@ -333,6 +333,7 @@ void room8()
 	{
 		"Defeat a monster",
 		"Solve a magic spell",
+		"Escape the room",
 	}
 }
 
