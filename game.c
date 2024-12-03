@@ -15,7 +15,7 @@
 
 //place function prototypes here
 
-
+void room8();
 
 
 
@@ -75,7 +75,8 @@ int main(int argc, char *argv[])
 			case 8:
 			{
 			//yyong 
-				puts("room8");
+				puts("888 Secret Room");
+				room8();
 				break;
 			}
 			case 9:
@@ -325,5 +326,14 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+void room8()
+{
+	puts("You have entered 888 Game Room, there are five options for you to choose from in my fun little room");
+	const char *options[]=
+	{
+		"Defeat a monster",
+		"Solve a magic spell",
+	}
+}
 
 
